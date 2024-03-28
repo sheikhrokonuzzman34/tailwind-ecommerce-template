@@ -10,6 +10,10 @@ ul>li>span:hover{
 ul li a:hover{
     text-decoration: underline;
 }
+#section ul{
+        margin-top: 12px;
+        margin-bottom: 12px;
+}
 
 #menuItem:hover .menuDown{
     display: block;
