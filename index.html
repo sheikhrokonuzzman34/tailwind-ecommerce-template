@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Template</title>
+    <link rel="stylesheet" href="/Styles/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.9.0/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <header>
+      <!-- sub nav -->
+      <section
+        class="flex justify-between items-center px-5 py-2 border-b border-gray-300 shadow-lg"
+      >
+        <h1 class="text-sm">Welcome to Riode store message or remove it!</h1>
+        <div class="w-1/2">
+          <div></div>
+          <div id="" class="flex justify-around items-center">
+            <p id="contact">
+              <i class="fa-solid fa-location-dot"></i> <a href="/Pages/contact.html">Contact</a>
+            </p>
+            <p><i class="fa-solid fa-circle-info"></i> Need Help</p>
+            <p>
+              <i class="fa-regular fa-user"></i> <a href="#s">Sign In</a>/
+              <a href="#r">Register</a>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <nav class="px-8 py-7 flex items-center w-full">
+        <!-- logo -->
+        <div class="w-[20%]">
+          <img class="h-12" src="/image/logo.png" alt="" />
+        </div>
+        <div class="w-[40%]">
+          <label class="input input-bordered w-full flex items-center gap-2">
+            <input type="text" class="grow" placeholder="Search" />
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 16 16"
+              fill="currentColor"
+              class="w-4 h-4 opacity-70"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M9.965 11.026a5 5 0 1 1 1.06-1.06l2.755 2.754a.75.75 0 1 1-1.06 1.06l-2.755-2.754ZM10.5 7a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </label>
+        </div>
+        <div class="w-[40%] flex justify-center items-center gap-2">
+          <div class="flex justify-center items-center gap-2">
+            <i class="fa-solid fa-phone text-3xl"></i>
+            <div>
+              <p>Call us now:</p>
+              <p>0(800) 123-456</p>
+            </div>
+          </div>
+          <div class="border-x border-black">
+            <i class="fa-regular fa-heart text-3xl px-4"></i>
+          </div>
+          <div class="flex justify-center items-center gap-2">
+            <div>
+              <p>Shopping Cart:</p>
+              <p>$000</p>
+            </div>
+            <i class="fa-solid fa-bag-shopping text-3xl"></i>
+          </div>
+        </div>
+      </nav>
+
+      <!-- menu section -->
+      <section id="section" class="w-full px-8 py-3 flex justify-between items-center">
+        <ul class="flex justify-start items-center gap-10">
+          <li id="home"><span>Home</span></li>
+          <li id="menuItem" class="relative">
+            <span>Category</span>
+            <div class="menuDown absolute hidden p-5 bg-green-200 w-[800px]">
+              <ul class="flex justify-between items-start gap-5">
+                <li class=""><span>Variation 1</span>
+                  <ul>
+                    <li><a href="">Classic filter</a></li>
+                    <li><a href="">Left toggle filter</a></li>
+                    <li><a href="">Right toggle sidebar</a></li>
+                  </ul>
+                </li>
+                <li><span>Variation 2</span>
+                  <ul>
+                    <li><a href="">3 column mode</a></li>
+                    <li><a href="">4 column mode</a></li>
+                    <li><a href="">5 column mode</a></li>
+                  </ul>
+                </li>
+                <li><span>Variation 3</span>
+                  <ul>
+                    <li><a href="">Category Grid shop</a></li>
+                    <li><a href="">Category + Products</a></li>
+                    <li><a href="">Products shape type 1</a></li>
+                  </ul>
+                </li>
+                <div>
+                  <img src="" alt="">
+                </div>
+              </ul>
+            </div>
+          </li>
+          <li><span>Products</span></li>
+          <li><span>Pages</span></li>
+          <li><span>Element</span></li>
+          <li><span>Blog</span></li>
+          <li><span>About Us</span></li>
+        </ul>
+        <div class="flex items-center gap-9">
+          <h1 class="text-xl font-semibold"><i class="fa-solid fa-tag"></i> Special Offer</h1>
+          <h1 class="text-xl font-semibold">Buy Riode</h1>
+        </div>
+      </section>
+    </header>
+
+    <main id="contentContainer">
+      <div id="">
+        
+      </div>
+    </main>
+
+  </body>
+</html>
